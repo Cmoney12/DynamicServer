@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/corey/CLionProjects/dynamicserv/chat_message.hpp
+cstdio
+-
+cstdlib
+-
+cstring
+-
+
+/home/corey/CLionProjects/dynamicserv/main.cpp
+cstdlib
+-
+deque
+-
+iostream
+-
+list
+-
+memory
+-
+set
+-
+utility
+-
+boost/asio.hpp
+-
+chat_message.hpp
+/home/corey/CLionProjects/dynamicserv/chat_message.hpp
+
